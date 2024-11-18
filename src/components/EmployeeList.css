@@ -1,0 +1,65 @@
+.employee-list {
+    max-width: 90%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list h1 {
+    text-align: center;
+    color: #4A90E2;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background-color: #F5A623;
+    color: white;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #DDD;
+  }
+  
+  tr:hover {
+    background-color: #F5F5F5;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+  }
+  
+  .edit-btn {
+    background-color: #4A90E2;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #3F7ACC;
+    transform: scale(1.05);
+  }
+  
+  .delete-btn {
+    background-color: #FF4C4C;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #E04343;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,28 @@
+.logout {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout h1 {
+    color: #FF4C4C;
+  }
+  
+  .logout button {
+    background-color: #FF4C4C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .logout button:hover {
+    background-color: #E04343;
+    transform: scale(1.05);
+  }
+  

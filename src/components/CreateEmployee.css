@@ -1,0 +1,23 @@
+.create-employee {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-employee h1 {
+    text-align: center;
+    color: #4A90E2;
+  }
+  
+  .create-employee form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-employee input, select, button {
+    margin-bottom: 15px;
+  }
+  
